@@ -351,10 +351,8 @@ west attach -b 115200
 west boards
 
 # 搜索特定板子
-west boards nrf52
+west boards -n nrf52
 
-# 显示板子详细信息
-west boards -n nrf52840dk_nrf52840
 ```
 
 #### west config - 配置管理
